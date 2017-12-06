@@ -1,0 +1,16 @@
+.logo {
+	width: 200px;
+}
+
+.logo-color {
+	background-color: #6f7cae !important;
+	border-color: #6f7cae !important;
+}
+
+.navbar {
+	padding: 8px 50px 8px 50px !important;
+}
+
+.jumbotron {
+	margin: 0px 50px 0px 50px !important;
+}
