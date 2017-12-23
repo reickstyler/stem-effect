@@ -13,5 +13,21 @@
 }
 
 .jumbotron {
-	margin: 0px 50px 0px 50px !important;
+	margin: 10px 50px 0px 50px !important;
+}
+
+.card {
+	margin: 20px 50px 0px 50px !important;
+}
+
+.margin-sizing {
+	margin: 20px 20% 0px 20%;
+}
+
+.email-width {
+	width: 200px;
+}
+
+.submit-form-margin {
+	margin-bottom: 20px;
 }
