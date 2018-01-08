@@ -15,6 +15,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/cfaf709848.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -38,22 +39,65 @@
     </nav>
 
     <div class="card">
-	    <form class="margin-sizing">
+	    <form class="margin-sizing" action="mailto:stemeffect@gmail.com" method="post" enctype="text/plain">
 	      <fieldset>
 	        <legend>Contact Us</legend>
+          <div class="form-group">
+            <label for="customerName">Name</label>
+            <input type="text" class="form-control" id="customerName" aria-describedby="emailHelp" placeholder="Enter email" name="name">
+          </div>
 	        <div class="form-group">
-	          <label for="exampleInputEmail1">Email address</label>
-	          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+	          <label for="customerEmail">Email address</label>
+	          <input type="email" class="form-control" id="customerEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
 	          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 	        </div>
 	        <div class="form-group">
 	          <label for="exampleTextarea">Please type your message below</label>
-	          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+	          <textarea class="form-control" id="exampleTextarea" rows="3" name="comment"></textarea>
 	        </div>
 	        <button type="submit" class="btn btn-secondary logo-color submit-form-margin">Submit</button>
 	      </fieldset>
 	    </form>
 	</div>
+
+  <!--Footer-->
+  <footer class="page-footer logo-color center-on-small-only pt-0">
+
+      <!--Footer Links-->
+      <div class="container">
+
+          <!--First row-->
+          <div class="row">
+
+              <!--First column-->
+              <div class="col-md-12">
+
+                  <div class="flex-center">
+
+                     <div id="social">
+                          <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/stemeffect/" target="_blank" ></a>
+                          <a class="twitterBtn smGlobalBtn" href="#" target="_blank"></a>
+                          <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/tylerreicks" target="_blank"></a>
+                        </div>
+                      
+                  </div>
+              </div>
+              <!--/First column-->
+          </div>
+          <!--/First row-->
+      </div>
+      <!--/Footer Links-->
+
+      <!--Copyright-->
+      <div class="footer-copyright">
+          <div class="container-fluid" style="text-align: center;">
+            © 2018 Copyright: <a href="http://stem-effect.surge.sh"> Stem Effect </a>
+          </div>
+      </div>
+      <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
