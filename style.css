@@ -11,6 +11,7 @@
 .navbar {
 	padding: 8px 50px 8px 50px !important;
 	margin-bottom: 50px;
+	border-bottom: 4px solid #6f7cae85;
 }
 
 .jumbotron {
