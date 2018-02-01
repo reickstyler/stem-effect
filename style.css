@@ -1,123 +1,128 @@
 .logo {
-	width: 200px;
-	margin-right: 15px;
+  width: 200px;
+  margin-right: 15px;
 }
 
 .logo-color {
-	background-color: #6f7cae !important;
-	border-color: #6f7cae !important;
+  background-color: #6f7cae !important;
+  border-color: #6f7cae !important;
 }
 
 .navbar {
-	padding: 8px 50px 8px 50px !important;
-	margin-bottom: 50px;
-	border-bottom: 4px solid #6f7cae85;
+  padding: 8px 50px 8px 50px !important;
+  margin-bottom: 50px;
+  border-bottom: 4px solid #6f7cae85;
 }
 
 .jumbotron {
-	margin: 10px 50px 0px 50px !important;
+  margin: 10px 50px 0px 50px !important;
 }
 
 .card {
-	margin: 20px 50px 0px 50px !important;
+  margin: 20px 50px 0px 50px !important;
 }
 
 .margin-sizing {
-	margin: 20px 20% 0px 20%;
+  margin: 20px 20% 0px 20%;
 }
 
 .email-width {
-	width: 200px;
+  width: 200px;
 }
 
 .submit-form-margin {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .page-footer {
-	margin-top: 100px !important; 
+  margin-top: 100px !important;
 }
 
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.container-fluid-store {
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 #social {
   margin: 20px 10px;
   text-align: center;
 }
 
-.smGlobalBtn { /* global button class */
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border:2px solid #ddd; /* add border to the buttons */
-    box-shadow: 0 3px 3px #999;
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 2em;
-    border-radius: 27px;
-    -moz-border-radius:27px;
-    -webkit-border-radius:27px;
+.smGlobalBtn {
+  /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd; /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
 }
 
 /* facebook button class*/
-.facebookBtn{
-    background: #4060A5;
+.facebookBtn {
+  background: #4060a5;
 }
 
-.facebookBtn:before{ /* use :before to add the relevant icons */
-    font-family: "FontAwesome";
-    content: "\f09a"; /* add facebook icon */
+.facebookBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f09a"; /* add facebook icon */
 }
 
-.facebookBtn:hover{
-    color: #4060A5;
-    background: #fff;
-    border-color: #4060A5; /* change the border color on mouse hover */
+.facebookBtn:hover {
+  color: #4060a5;
+  background: #fff;
+  border-color: #4060a5; /* change the border color on mouse hover */
 }
 
 /* twitter button class*/
-.twitterBtn{
-    background: #00ABE3;
+.twitterBtn {
+  background: #00abe3;
 }
 
-.twitterBtn:before{
-      font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
-      
+.twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099"; /* add twitter icon */
 }
 
-.twitterBtn:hover{
-      color: #00ABE3;
-      background: #fff;
-      border-color: #00ABE3;
+.twitterBtn:hover {
+  color: #00abe3;
+  background: #fff;
+  border-color: #00abe3;
 }
-
 
 /* linkedin button class*/
-.linkedinBtn{
-    background: #0094BC;
+.linkedinBtn {
+  background: #0094bc;
 }
 
-.linkedinBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0e1"; /* add linkedin icon */
+.linkedinBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1"; /* add linkedin icon */
 }
 
-.linkedinBtn:hover{
-      color: #0094BC;
-      background: #fff;
-      border-color: #0094BC;
+.linkedinBtn:hover {
+  color: #0094bc;
+  background: #fff;
+  border-color: #0094bc;
 }
 
 .footer-copyright {
-	background-color: #4f5a84;
+  background-color: #4f5a84;
 }
-
-
-
