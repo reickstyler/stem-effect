@@ -126,3 +126,8 @@
 .footer-copyright {
   background-color: #4f5a84;
 }
+
+.container-fluid-store {
+    padding-right: 15%;
+    padding-left: 15%;
+}
